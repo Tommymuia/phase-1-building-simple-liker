@@ -2,7 +2,15 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Your JavaScript code goes here!
+// main.js
+
+// create a hidden modal if it doesn't exist
+if (!document.querySelector('.hidden')) {
+    const modal = document.createElement('div');
+    modal.className = 'hidden';
+    document.body.appendChild(modal);
+}
+
 
 
 
